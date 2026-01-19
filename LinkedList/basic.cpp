@@ -54,6 +54,40 @@ public:
         }
     }
 
+    // Pop front //
+    void pop_front(){
+        Node* temp = head;
+        //if null //
+
+        if(head == nullptr){
+            cout<<"Nothing to pop list is empty"<<endl;
+            return;
+        }
+
+        //not null//
+        head = head->next;
+        temp->next = nullptr;
+        delete temp;
+    }
+
+    // pop back //
+    void pop_back(){
+        Node* temp = head;
+        //if null//
+        if(head == nullptr){
+            cout<<"list is empty";
+            return;
+        }
+        //not null //
+        while(temp->next!= tail){
+            temp = temp->next;
+        }
+        temp->next = nullptr;
+        delete tail;
+        tail = temp;
+
+    }
+
     // Print LL //
     void printLL(){
         Node* temp = head;
@@ -72,5 +106,11 @@ public:
     l.Push_front(3);
     l.push_back(4);
     l.push_back(5);
+
+    l.pop_front();
+    l.pop_front();
+
+    l.pop_back();
+
     l.printLL();
  }
