@@ -39,6 +39,21 @@ public:
         }
     }
 
+    //Push back in LL//
+
+    void push_back(int val){
+        Node* newnode = new Node(val);
+        // if null //
+        if(head == nullptr){
+            head = tail = newnode;
+        }
+        // if not null //
+        else{
+            tail->next = newnode;
+            tail = newnode;
+        }
+    }
+
     // Print LL //
     void printLL(){
         Node* temp = head;
@@ -46,6 +61,7 @@ public:
             cout<<temp->data<<" -> ";
             temp = temp->next;
         }
+        cout<<"NULL"<<endl;
     }
  };
 
@@ -54,5 +70,7 @@ public:
     l.Push_front(1);
     l.Push_front(2);
     l.Push_front(3);
+    l.push_back(4);
+    l.push_back(5);
     l.printLL();
  }
