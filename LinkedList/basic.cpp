@@ -88,6 +88,45 @@ public:
 
     }
 
+    //search element/key in LL//
+    int search(int key){
+        Node* temp = head;
+        int idx = 0;
+        while(temp!= nullptr){
+            if(temp->data == key){
+            return idx;
+        }
+        temp = temp->next;
+        idx++;
+        }
+        
+        return -1;
+    }
+
+    //insert in middle of LL //
+    void insert(int val,int pos){
+        Node* newnode = new Node(val);
+        Node* temp = head;
+        if(pos<0){
+            cout<<"invalid \n";
+            return;
+        }
+        if(pos == 0){
+            Push_front(val);
+            return;
+        }
+
+        for(int i=0;i<pos-1;i++){
+            if(temp == nullptr){
+                cout<<"invalid position";
+                return;
+            }
+            temp = temp->next;
+        }
+        newnode->next = temp->next;
+        temp->next = newnode;
+    }
+
     // Print LL //
     void printLL(){
         Node* temp = head;
@@ -104,13 +143,9 @@ public:
     l.Push_front(1);
     l.Push_front(2);
     l.Push_front(3);
-    l.push_back(4);
-    l.push_back(5);
-
-    l.pop_front();
-    l.pop_front();
-
-    l.pop_back();
+    l.insert(5,1);
+    
+    cout<<l.search(2)<<endl;;
 
     l.printLL();
  }
