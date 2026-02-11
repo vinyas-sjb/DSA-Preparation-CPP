@@ -6,3 +6,4 @@
 | Middle of a LinkedList | Easy | https://leetcode.com/problems/middle-of-the-linked-list/submissions/1914933321/ |
 | Detect cycle in LinkedList | Easy | https://leetcode.com/problems/linked-list-cycle/ |
 | cycle in  a LinkedList2 | Medium | https://leetcode.com/problems/linked-list-cycle-ii/ |
+| Delete the middle node of LL | Medium | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |
