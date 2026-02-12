@@ -7,3 +7,4 @@
 | Detect cycle in LinkedList | Easy | https://leetcode.com/problems/linked-list-cycle/ |
 | cycle in  a LinkedList2 | Medium | https://leetcode.com/problems/linked-list-cycle-ii/ |
 | Delete the middle node of LL | Medium | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |
+| Merge 2 sorted LinkedList | Easy | https://leetcode.com/problems/merge-two-sorted-lists/ |
