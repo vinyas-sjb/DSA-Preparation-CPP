@@ -46,10 +46,10 @@
 
 ---
 ## 🧠 Pattern Mapping
-Parentheses / Undo        → Stack
-Span / Range              → Monotonic Stack
-Greater / Smaller         → Monotonic Stack
-Histogram / Area          → Stack + Indices
+- | Parentheses / Undo | Stack |
+- | Span / Range | Monotonic Stack |
+- | Greater / Smaller | Monotonic Stack |
+- | Histogram / Area | Stack + Indices |
 ---
 
 ## 🛠 Tools Used
