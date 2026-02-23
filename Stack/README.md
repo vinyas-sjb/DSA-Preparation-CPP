@@ -68,6 +68,8 @@
 | Valid Parenthesis | Easy | https://leetcode.com/problems/valid-parentheses/description/ |
 | Stock Span | Medium | https://leetcode.com/problems/online-stock-span/description/ |
 | Next Greater Element1 | Easy | https://leetcode.com/problems/next-greater-element-i/description/ |
+| Min Stack | Medium | https://leetcode.com/problems/min-stack/description/ |
+| Largest Rectangle in Histogram | Hard | https://leetcode.com/problems/largest-rectangle-in-histogram/ |
 
 
 # Stack Data Structure (Monotonic Stack Patterns)
