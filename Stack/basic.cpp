@@ -21,7 +21,7 @@ STACK USING VECTOR
 • Dynamic array
 • Push: vector.push_back() → O(1) amortized
 • Pop : vector.pop_back()  → O(1)
-• Top : vector.back()      → O(1)
+• Top : vector(vector.size()-1)      → O(1)
 
 ------------------------------------------------
 STACK USING LINKED LIST
