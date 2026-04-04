@@ -1,5 +1,14 @@
 # Stack (DSA)
 
+## 📚 Why Stack is Important
+
+Stacks are widely used in:
+- Expression evaluation
+- Syntax parsing
+- Undo/Redo operations
+- Backtracking algorithms
+- Monotonic stack problems
+
 ## 📌 What is Stack?
 - Linear data structure
 - Follows **LIFO (Last In First Out)**
@@ -61,7 +70,7 @@
 
 
 
-# LinkedList - Leetcode Problems
+# Stack - Leetcode Problems
 
 | Problem Name | Difficulty | Link |
 | ------------- | ---------- | ---- |
